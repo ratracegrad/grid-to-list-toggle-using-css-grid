@@ -1,0 +1,48 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: azure;
+}
+
+.container {
+	width: 90vw;
+	max-width: 800px;
+	margin: 50px auto;
+}
+
+.btn {
+	height: 55px;
+	background: #2364d2;
+	color: white;
+	padding: 10px 20px;
+	margin-right: 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 22px;
+	font-weight: 500;
+	font-family: "Source Sans Pro", sans-serif;
+	box-shadow: 3px 10px 20px 0px rgba(35, 100, 210, 0.3);
+}
+
+.card {
+	border: 1px solid black;
+	padding: 10px;
+	background: white;
+	margin-bottom: 20px;
+}
+
+#card-wrapper {
+	display: grid;
+	width: 100%;
+	margin-top: 50px;
+	gap: 10px 20px;
+}
+
+.grid {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list {
+	grid-template-columns: 1fr;
+}
